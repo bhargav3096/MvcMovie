@@ -22,32 +22,53 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
-                    Price = 7.99M
-                },
-                new Movie
-                {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
+                    Title = "3 Idiots",
+                    ReleaseDate = DateTime.Parse("2012-12-25"),
                     Genre = "Comedy",
-                    Price = 8.99M
+                    Price = 10,
+                    Rating = "9"
+                  
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
+                    Title = "OMG! ",
+                    ReleaseDate = DateTime.Parse("2012-06-30"),
                     Genre = "Comedy",
-                    Price = 9.99M
+                    Price = 11,
+                    Rating = "9"
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
-                    Price = 3.99M
-                }
+                    Title = "The Dark Knight",
+                    ReleaseDate = DateTime.Parse("2010-10-25"),
+                    Genre = "Superhero",
+                    Price = 20,
+                    Rating = "9.8"    
+                },
+                new Movie
+                {
+                    Title = "ABCD",
+                    ReleaseDate = DateTime.Parse("2014-02-08"),
+                    Genre = "Dance",
+                    Price = 15,
+                    Rating = "5.9"
+                },
+                 new Movie
+                 {
+                     Title = "All the Best",
+                     ReleaseDate = DateTime.Parse("2015-12-23"),
+                     Genre = "Comedy",
+                     Price = 10,
+                     Rating = "6.7"
+                 },
+                   new Movie
+                   {
+                       Title = "Golmaal",
+                       ReleaseDate = DateTime.Parse("1996-10-25"),
+                       Genre = "Comedy",
+                       Price = 25,
+                       Rating = "7.9"
+                   }
             );
             context.SaveChanges();
         }

@@ -105,3 +105,19 @@ Delete.cshtml
 Detail.cshtml
 Index.cshtml
 Edit.cshtml
+
+
+
+After that when running the app, output is appear as expected and we can add, edit
+delete or see the details of that particular new Rating field..
+and it gives output as expected
+
+Part -- 9 started .. add validation
+in this section i am validating some of the fields like genre which contains only letters.
+also the first letter will be capital
+
+other fields will be done for validating such as "Rating", "title"--lenght must be minimum 3 
+
+price must be integer value not in string
+and Release Date field should not be blank...
+
