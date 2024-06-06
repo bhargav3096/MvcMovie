@@ -120,4 +120,5 @@ other fields will be done for validating such as "Rating", "title"--lenght must 
 
 price must be integer value not in string
 and Release Date field should not be blank...
+day end.
 
